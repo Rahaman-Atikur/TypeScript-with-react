@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <UsersInformations name="Safeer Rahaman" age={23} isRegiste={true}></UsersInformations>
+      <UsersInformations name="Safeer Rahaman" age={23} isRegister={true} language={["English","Bangla"]}></UsersInformations>
     </>
   )
 }
