@@ -1,17 +1,16 @@
 // import React from 'react';
 import React from "react";
 type userInformationsProps = {
-  name: string;
-  age: number;
-  isRegister: boolean;
-  language: string[];
+  user1: {
+    name: string;
+    age: number;
+    isRegister: boolean;
+    language: string[];
+}
 };
 
 const UsersInformations = ({
-  name,
-  age,
-  isRegister,
-  language,
+  user
 }: userInformationsProps) => {
   return (
     <div>
